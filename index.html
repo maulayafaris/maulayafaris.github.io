@@ -6,10 +6,10 @@
   <link href="css/tailwind.min.css" rel="stylesheet">
   <!-- ... -->
 </head>
-<body class="bg-gray-200">
-    <nav class="<nav> : h-14 w-full bg-gray-800 bg-opacity-70 top-0 z-10 text-white font-mono fixed">
+<body class="bg-gray-200 font-serif">
+    <nav class="<nav> : lg:h-14 w-full bg-gray-800 bg-opacity-70 top-0 z-10 text-white font-mono fixed">
         <div class="container : max-w-screen-xl px-8 py-3 m-auto">
-          <div class="h-left : float-left">
+          <div class="h-left : float-left ml-5">
             <a href="" class="text-white text-2xl font-semibold">Maulaya</a>
           </div>
           <div class="h-right : float-right text-xl">
@@ -29,9 +29,34 @@
     
     <!-- School Story -->
     <div class="intro : w-full bg-gray-200 py-6">
-      <h1 class="title : text-center text-4xl mt-8 font-medium font-mono">EDUCATION</h1>
-        <div class="flex-1 bg-white h-14 w-80">
-          <h4>Test</h4>
+      <h1 class="title : text-center text-4xl lg:mt-8 sm:mt-4 font-medium font-mono">EDUCATION</h1>
+        
+      <div class="lg:flex lg:flex-wrap sm:flex-row justify-center mt-5 ">
+
+          <div class="flex-auto">
+            <div class="lg:h-14 sm:h-6 lg:m-2">
+              <!-- <h3>Test</h3> -->
+            </div>
+          </div>
+
+          <div class="educated-box : flex-auto bg-gray-100 h-44 p-3 shadow-xl hover:shadow-2xl">
+            <div class="relative">
+              <div class="img-box : absolute inset-y-0 left-0">
+                <img src="img/pp.png" alt="" class="h-54 border border-opacity-20 border-black shadow-xl p-1">
+              </div>
+              <div class="text-box : absolute inset-y-0 right-0 py-8 pr-6">
+                <h2 class="title-box : text-xl font-semibold">SMK Prestasi Prima</h2>
+                <h4><b>Major : </b> Software Engineering</h4>
+                <h4><b>Graduated : </b> - </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-auto">
+            <div class="lg:h-14 sm:h-6 lg:m-2">
+              <!-- <h3>Test2</h3> -->
+            </div>
+          </div>
         </div>
     </div>
 </body>
