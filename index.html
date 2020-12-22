@@ -7,23 +7,25 @@
   <!-- ... -->
 </head>
 <body class="bg-gray-200 font-serif">
-    <nav class="<nav> : lg:h-15 md:h-14 w-full bg-gray-800 bg-opacity-70 top-0 z-10 text-white font-mono fixed">
+    <nav class="<nav> : lg:h-15 md:h-14 w-full bg-gray-800 bg-opacity-90 top-0 z-10 text-white font-mono fixed">
         <div class="container : max-w-screen-xl px-8 py-3 m-auto">
-          <div class="h-left : float-left mx-auto">
-            <a href="" class="text-white text-2xl font-semibold">Maulaya</a>
+          <div class="h-left : lg:float-left text-center mb-2 mx-auto">
+            <a href="" class="text-white lg:text-2xl text-xl sm:ml-20 font-semibold">Maulaya</a>
           </div>
-          <div class="h-right : float-right text-xl">
+          <div class="h-right : float-right lg:text-xl text-base">
+            | <a href="#home">Profile</a> |
             <a href="https://dolphinza42.blogspot.com/">Blog</a> |
             <a href="#achievement">Achievement</a> |
-            <a href="">Skill</a> |
-            <a href="">Project</a>
+            <a href="#skill">Skill</a> |
+            <a href="#project">Project</a> |
+            <a href="#contact">Contact</a> |
           </div>
         </div>
       </nav>
 
     <!-- Profile -->
-    <header class="intro : w-full bg-gray-100 pt-20 pb-6">
-      <img src="img/person.jpg" alt="my photo profile" class="profile : container mx-auto h-80 w-80 bg-white rounded-full border-4 border-black">
+    <header class="intro : w-full bg-gray-100 lg:pt-20 pt-32 pb-6" id="home">
+      <img src="img/profile.png" alt="my photo profile" class="profile : container mx-auto h-80 w-80 bg-white rounded-full border-4 border-black">
       <h1 class="title : text-center text-4xl mt-8 font-medium font-mono">MAULAYA SHALIH AL-FARISI</h1>
     </header>
     
@@ -45,7 +47,7 @@
                 <img src="img/pp.png" alt="" class="h-54 border border-opacity-20 border-black shadow-xl p-1">
               </div>
               <div class="text-box : absolute inset-y-0 right-0 py-8 pr-6">
-                <h2 class="title-box : text-xl font-semibold">SMK Prestasi Prima</h2>
+                <h2 class="title-box : text-xl font-semibold overflow-ellipsis overflow-hidden">SMK Prestasi Prima</h2>
                 <h4><b>Major : </b> Software Engineering</h4>
                 <h4><b>Graduated : </b> - </h4>
               </div>
@@ -57,6 +59,7 @@
               <!-- <h3>Test2</h3> -->
             </div>
           </div>
+          
         </div>
     </div>
 
@@ -66,16 +69,57 @@
         
         <div class="lg:flex lg:flex-wrap sm:flex-row mt-5">
           <div class="flex-auto">
-            <img src="img/sololearn_html.jpeg" alt="" class="h-52 mb-5 shadow-xl hover:shadow-2xl border border-black">
+            <img src="img/sololearn_html.jpeg" alt="" class="h-52 shadow-xl hover:shadow-2xl border border-black">
+            <p class="text-base text-gray-500 mb-5">From course HTML SoloLearn</p>
           </div>
           <div class="flex-auto">
-            <img src="img/progate_htmlncss.png" alt="" class="h-52 mb-5 shadow-xl hover:shadow-2xl border border-black">
+            <img src="img/progate_htmlncss.png" alt="" class="h-52 shadow-xl hover:shadow-2xl border border-black">
+            <p class="text-base text-gray-500 mb-5">From course HTML&CSS Progate</p>
           </div>
           <div class="flex-auto">
-            <img src="img/progate_terminal.png" alt="" class="h-52 mb-5 shadow-xl hover:shadow-2xl border border-black">
+            <img src="img/progate_terminal.png" alt="" class="h-52 shadow-xl hover:shadow-2xl border border-black">
+            <p class="text-base text-gray-500 mb-5">From course Command Line Progate</p>
           </div>  
         </div>
     </div>
+
+    <!-- Skill Page -->
+    <div class="w-full lg:px-44 px-10 lg:py-12 py-4" id="skill">
+      
+      <h1 class="title : text-center text-4xl lg:mt-8 sm:mt-4 font-medium font-mono">SKILL</h1>
+      
+      <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-24 gap-1 mt-5">
+        <!-- 1 -->
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-5">
+          <div class="flex-auto">
+            <img src="img/htmlncss.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">HTML&CSS</h4>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-5">
+          <div class="flex-auto">
+            <img src="img/python.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">Python</h4>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-5">
+          <div class="flex-auto">
+            <img src="img/php.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">PHP</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
 
     <!-- footer -->
     <footer class="w-full bg-black bg-opacity-70">
