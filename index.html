@@ -26,46 +26,36 @@
     <!-- Profile -->
     <header class="intro : w-full bg-gray-100 lg:pt-20 pt-32 pb-6" id="home">
       <img src="img/profile.png" alt="my photo profile" class="profile : container mx-auto h-80 w-80 bg-white rounded-full border-4 border-black">
-      <h1 class="title : text-center text-4xl mt-8 font-medium font-mono">MAULAYA SHALIH AL-FARISI</h1>
+      <h1 class="title : text-center lg:text-4xl text-2xl mt-8 font-medium font-mono">MAULAYA SHALIH AL-FARISI</h1>
     </header>
     
     <!-- School Story -->
-    <div class="edupage : w-full bg-gray-200 py-6 mb-8">
-      <h1 class="title : text-center text-4xl lg:mt-8 sm:mt-4 font-medium font-mono">EDUCATION</h1>
+    <div class="edupage : w-full bg-gray-200 px-2 lg:px-44 py-6 mb-5">
+      <h1 class="title : text-center lg:text-4xl text-2xl mt-4 font-medium font-mono">EDUCATION</h1>
         
-      <div class="lg:flex lg:flex-wrap sm:flex-row justify-center mt-5 ">
-
-          <div class="flex-auto">
-            <div class="lg:h-14 sm:h-6 lg:m-2">
-              <!-- <h3>Test</h3> -->
+        <div class="grid lg:grid-cols-3 gap-3 mt-2 place-content-center">
+          <!-- 1 -->
+          <div class="flex"></div>
+          <!-- 2 -->
+          <div class="flex bg-gray-100 shadow-xl hover:shadow-2xl justify-center">
+            <!-- School name -->
+            <div class="img-box : flex-auto py-5 px-5">
+              <img src="img/pp.png" alt="" class="h-54 border border-opacity-20 border-black shadow-xl p-1 sm:h-54">
+            </div>
+            <!-- major and Graduated -->
+            <div class="text-box : flex-auto py-5">
+              <h2 class="title-box : text-xl font-semibold">SMK Prestasi Prima</h2>
+              <h4><b>Major : </b> Software Engineering</h4>
+              <h4><b>Graduated : </b> - </h4>
             </div>
           </div>
-
-          <div class="educated-box : flex-auto bg-gray-100 h-44 p-3 shadow-xl hover:shadow-2xl">
-            <div class="relative">
-              <div class="img-box : absolute inset-y-0 left-0">
-                <img src="img/pp.png" alt="" class="h-54 border border-opacity-20 border-black shadow-xl p-1">
-              </div>
-              <div class="text-box : absolute inset-y-0 right-0 py-8 pr-6">
-                <h2 class="title-box : text-xl font-semibold overflow-ellipsis overflow-hidden">SMK Prestasi Prima</h2>
-                <h4><b>Major : </b> Software Engineering</h4>
-                <h4><b>Graduated : </b> - </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex-auto">
-            <div class="lg:h-14 sm:h-6 lg:m-2">
-              <!-- <h3>Test2</h3> -->
-            </div>
-          </div>
-          
         </div>
+          
     </div>
 
     <!-- Achievment -->
     <div class="edupage : w-full bg-gray-100 py-6 pb-8 lg:px-44 px-10" id="achievement">
-      <h1 class="title : text-center text-4xl lg:mt-8 sm:mt-4 font-medium font-mono">ACHIEVEMENT</h1>
+      <h1 class="title : text-center lg:text-4xl text-2xl lg:mt-8 sm:mt-4 font-medium font-mono">ACHIEVEMENT</h1>
         
         <div class="lg:flex lg:flex-wrap sm:flex-row mt-5">
           <div class="flex-auto">
@@ -86,11 +76,11 @@
     <!-- Skill Page -->
     <div class="w-full lg:px-44 px-10 lg:py-12 py-4" id="skill">
       
-      <h1 class="title : text-center text-4xl lg:mt-8 sm:mt-4 font-medium font-mono">SKILL</h1>
+      <h1 class="title : text-center lg:text-4xl text-2xl mt-2 font-medium font-mono">SKILL</h1>
       
       <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-24 gap-1 mt-5">
         <!-- 1 -->
-        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-5">
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
           <div class="flex-auto">
             <img src="img/htmlncss.png" alt="" class="h-20 border border-black border-opacity-20">
           </div>
@@ -99,7 +89,7 @@
           </div>
         </div>
         <!-- 2 -->
-        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-5">
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
           <div class="flex-auto">
             <img src="img/python.png" alt="" class="h-20 border border-black border-opacity-20">
           </div>
@@ -108,12 +98,30 @@
           </div>
         </div>
         <!-- 3 -->
-        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-5">
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
           <div class="flex-auto">
             <img src="img/php.png" alt="" class="h-20 border border-black border-opacity-20">
           </div>
           <div class="flex-auto py-5">
             <h4 class="text-justify text-xl">PHP</h4>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
+          <div class="flex-auto">
+            <img src="img/tailwindcss.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">Tailwindcss</h4>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
+          <div class="flex-auto">
+            <img src="img/bs.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">Bootstrap</h4>
           </div>
         </div>
       </div>
