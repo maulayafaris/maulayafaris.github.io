@@ -5,6 +5,7 @@
 2. Tailwindcss
 
 ## Licensi
-1. You have permission to modified this code just for yourself
-2. you dont have permission to sell this code
-3. you dont have permission to share to another person without permission from the author 
+1. YOU HAVE PERMISSION to modified this code just for yourself
+2. YOU DONT HAVE PERMISSION to sell this code
+3. YOU DONT HAVE PERMISSION to share to another person without permission from the author 
+4. YOU DONT HAVE PERMISSION to change credit in footer
