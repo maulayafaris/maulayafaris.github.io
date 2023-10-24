@@ -1,0 +1,83 @@
+A.
+<!-- <a href="#achievement">Achievement</a> |
+            <a href="#skill">Skill</a> | -->
+
+B.
+<!-- Achievment
+    <div class="edupage : w-full bg-gray-100 py-6 pb-8 lg:px-44 px-10" id="achievement">
+      <h1 class="title : text-center lg:text-4xl text-2xl lg:mt-8 sm:mt-4 font-medium font-mono">ACHIEVEMENT</h1>
+        
+        <div class="lg:flex lg:flex-wrap sm:flex-row mt-5">
+          <div class="flex-auto">
+            <img src="img/sololearn_html.jpeg" alt="" class="h-52 shadow-xl hover:shadow-2xl border border-black">
+            <p class="text-base text-gray-500 mb-5">From course HTML SoloLearn</p>
+          </div>
+          <div class="flex-auto">
+            <img src="img/progate_htmlncss.png" alt="" class="h-52 shadow-xl hover:shadow-2xl border border-black">
+            <p class="text-base text-gray-500 mb-5">From course HTML&CSS Progate</p>
+          </div>
+          <div class="flex-auto">
+            <img src="img/progate_terminal.png" alt="" class="h-52 shadow-xl hover:shadow-2xl border border-black">
+            <p class="text-base text-gray-500 mb-5">From course Command Line Progate</p>
+          </div>  
+        </div>
+    </div>
+	 -->
+
+    <!-- Skill Page 
+    <div class="w-full lg:px-44 px-10 lg:py-12 py-4" id="skill">
+      
+      <h1 class="title : text-center lg:text-4xl text-2xl mt-2 font-medium font-mono">SKILL</h1>
+      
+      <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-24 gap-1 mt-5">
+        <!-- 1 
+        <div class="flex flex-wrap bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
+          <div class="flex-auto">
+            <img src="img/htmlncss.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">HTML&CSS</h4>
+          </div>
+        </div>
+        <!-- 2 
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
+          <div class="flex-auto">
+            <img src="img/python.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">Python</h4>
+          </div>
+        </div>
+        <!-- 3 
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
+          <div class="flex-auto">
+            <img src="img/php.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">PHP</h4>
+          </div>
+        </div>
+        <!-- 4 
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
+          <div class="flex-auto">
+            <img src="img/tailwindcss.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">Tailwindcss</h4>
+          </div>
+        </div>
+        <!-- 5 
+        <div class="flex bg-gray-50 shadow-xl hover:shadow-2xl border border-black border-opacity-20 p-3 mb-2">
+          <div class="flex-auto">
+            <img src="img/bs.png" alt="" class="h-20 border border-black border-opacity-20">
+          </div>
+          <div class="flex-auto py-5">
+            <h4 class="text-justify text-xl">Bootstrap</h4>
+          </div>
+        </div>
+      </div>
+	  
+	 
+
+    </div>
+	 -->
